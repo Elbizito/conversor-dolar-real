@@ -20,5 +20,5 @@ O site foi feito para funcionar bem tanto no computador quanto no celular.
 
 ## 🔗 Acesse online
 
-[👉 Clique aqui para ver o projeto no ar](https://seu-usuario.github.io/conversor-dolar-real/)
+[👉 Clique aqui para ver o projeto no ar](https://Elbizito.github.io/conversor-dolar-real/)
 
