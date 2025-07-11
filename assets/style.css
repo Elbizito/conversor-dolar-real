@@ -1,0 +1,133 @@
+:root {
+  --background: #1b1b1b;
+  --primary: #dddddd;
+  --foreground: #6f8a7a;
+  --secondary: #e3e3e3;
+  --secondary-light: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: var(--primary);
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  text-align: center;
+  margin: 4rem 2rem;
+}
+
+header img {
+  width: auto;
+  height: 8rem;
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+
+main {
+  margin: 3rem;
+}
+
+main section {
+  display: flex;
+  font-weight: bold;
+  background-color: var(--foreground);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 80rem;
+  border-radius: 18px;
+  box-shadow: 0 0 20px rgba(63, 255, 130, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main section:hover {
+  transform: scale(1.01);
+}
+
+main section span {
+  display: block;
+  margin-right: 1rem;
+  color: var(--secondary-light);
+  font-size: 5rem;
+  transition: color 0.3s ease;
+}
+
+main section input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  color: var(--secondary);
+  font-size: 5rem;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  text-align: right;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+main section input:focus {
+  color: var(--secondary-light);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--secondary);
+  margin-top: 4rem;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+/* fundo com imagem escura */
+body {
+  background: url("fundotela.jpg") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+  z-index: -1;
+}
+
