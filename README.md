@@ -1,3 +1,5 @@
+!!PROJETO FEITO COM A BASE DE UM VÍDEO NO YOUTUBE DO PROFESSOR 
+Bonieky Lacerda: https://youtu.be/YqSfq1LiGvw?si=0Hfxlhto354SLAK8
 # 💱 Conversor de Dólar para Real
 
 Este é um site simples e responsivo que permite converter valores entre Dólar (USD) e Real (BRL) em tempo real, usando uma API de câmbio atualizada.
